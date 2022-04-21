@@ -3,11 +3,28 @@
     padding: 0;
 }
 .contenedor__cabecera{
-    background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-items: center;
 }
-.navegador{
-    display: flex;
-    flex-direction: column;
+.cabecera__imagen{
+    justify-self: flex-start;
+}
+.imagen__nav{
+    width: 200px;
+    margin: 10px;
+}
+.contenedor__nav{
+    background-color: rgb(51, 153, 63);
+    justify-self: center;
+}
+.nav__listas li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+.nav__listas li a{
+    text-decoration: none;
 }
