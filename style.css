@@ -2,3 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.contenedor__cabecera{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.navegador{
+    display: flex;
+    flex-direction: column;
+}
