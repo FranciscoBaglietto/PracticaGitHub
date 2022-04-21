@@ -28,3 +28,20 @@
 .nav__listas li a{
     text-decoration: none;
 }
+.container__main{
+    display: grid;
+    height: 600px;
+    width: auto;
+    grid-template-rows: 2fr 1fr 1fr;
+    background-color: brown;
+}
+.main__titulo{
+    justify-self: center;
+    padding: 10px;
+}
+.tituloprincipal{
+    border-bottom: solid 5px black;
+}
+.main__subtitulo{
+    justify-self: center;
+}
